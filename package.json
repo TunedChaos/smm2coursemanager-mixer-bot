@@ -26,5 +26,13 @@
   "bugs": {
     "url": "https://github.com/TunedChaos/smm2coursemanager-mixer-bot/issues"
   },
-  "homepage": "https://github.com/TunedChaos/smm2coursemanager-mixer-bot"
+  "homepage": "https://github.com/TunedChaos/smm2coursemanager-mixer-bot",
+  "dependencies": {
+    "@mixer/client-node": "^3.5.0",
+    "dotenv": "^8.2.0",
+    "socket.io-client": "^2.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
 }
